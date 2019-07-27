@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div :class="sizeClasses">
+    <div>
       <div ref="prependDiv" v-if="$slots.prepend || prepend" class="input-group-prepend">
         <slot name="prepend">
           <span class="input-group-text">{{ prepend }}</span>
